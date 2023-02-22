@@ -48,7 +48,7 @@
 <?php
 include('menu.html');
 include('ConexaoDB.php');
-include('../at2.php');
+
 //seleciona as categorias
 $sSelectCategorias = "select * from mercado.tbcategoria";
 $oSelectCategorias = pg_query($oConexao,$sSelectCategorias);

@@ -48,7 +48,7 @@
 <?php
 include('menu.html');
 include('ConexaoDB.php');
-include('../at2.php');
+
 //seleciona as departamentos
 $sSelectDepartamento = "select * from MERCADO.TBDEPARTAMENTO";
 $oSelectDepartamento = pg_query($oConexao,$sSelectDepartamento);

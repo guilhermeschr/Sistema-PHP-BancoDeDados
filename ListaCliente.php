@@ -48,7 +48,7 @@
 <?php
 include('menu.html');
 include('ConexaoDB.php');
-// include('../at2.php');
+
 $sSelectCliente = "SELECT CLICODIGO,
                              CLINOME,
                              CLICPF,
